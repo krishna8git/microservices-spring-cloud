@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: licensingservice # This service name should match config server's src/main/resources/config/{service-name}
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      uri: http://localhost:8888
